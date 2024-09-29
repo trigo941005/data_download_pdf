@@ -62,7 +62,7 @@ def search(name, data_type, year):
     select = Select(select_element)
     year_input = driver.find_element(By.NAME, "year")
     
-    for y in range(2):  # 根據需求爬取4個年度的資料
+    for y in range(2):  # 根據需求爬取2個年度的資料
         folder_name = f"{name}_{data_type}_{year + y}"
         
         # 選擇工業類型
