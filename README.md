@@ -1,33 +1,31 @@
 # data_download_pdf
- 
-# 專案說明
+
+## 專案說明
+
+此專案使用 Python 的 Selenium 模組，從公開資訊觀測站下載 2 個年份、4 種類別的永續報告書，並將下載的資料依據爬取條件整理成資料夾，方便使用者快速找到需要的檔案。
 
 ## 技術關鍵字
 
-    selenium
-    time
-    request
-    os
-    urllib.parse
-
-
-## 專案介紹
-
-    此專案使用python裡的selenium模組，從公開資訊觀測站爬取2個年份，4個種類的永續報告書，將資料下載下來後存儲到資料夾內，並將資料夾按照爬取條件命名，幫助使用者在翻閱時有校地尋找出要的檔案。
+- Selenium
+- Time
+- Requests
+- OS
+- Urllib.parse
 
 ## 功能
-    從公開資訊站爬取資料
-    將資料下載並整理成資料夾
 
+- 爬取公開資訊觀測站的資料
+- 下載報告書並按類別儲存到資料夾
 
 ## 使用資料
 
-    此專案使用的數據包含公開資訊站網站
+- [公開資訊觀測站](https://mops.twse.com.tw/mops/web/t100sb11)
 
-## 環境要求
-Python 3.9.11
-selenium 4.24.0
+## 環境需求
+
+- Python 3.9.11
+- Selenium 4.24.0
 
 ## 資料來源
 
-    https://mops.twse.com.tw/mops/web/t100sb11(公開資訊觀測站)
+- [公開資訊觀測站](https://mops.twse.com.tw/mops/web/t100sb11)
